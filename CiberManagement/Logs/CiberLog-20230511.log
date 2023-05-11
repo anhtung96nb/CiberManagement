@@ -1,0 +1,237 @@
+2023-05-11 21:25:03.441 +07:00 [INF] User profile is available. Using 'C:\Users\Tungdv\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-05-11 21:25:04.198 +07:00 [INF] Now listening on: https://localhost:7277
+2023-05-11 21:25:04.250 +07:00 [INF] Now listening on: http://localhost:5277
+2023-05-11 21:25:04.343 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-11 21:25:04.540 +07:00 [INF] Hosting environment: Development
+2023-05-11 21:25:04.610 +07:00 [INF] Content root path: D:\Hoc Tap\NetCore\CiberManagement\CiberManagement\
+2023-05-11 21:25:09.222 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7277/ - -
+2023-05-11 21:25:16.934 +07:00 [INF] Executing endpoint 'CiberManagement.Controllers.AccountController.SignIn (CiberManagement)'
+2023-05-11 21:25:16.969 +07:00 [INF] Route matched with {action = "SignIn", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SignIn() on controller CiberManagement.Controllers.AccountController (CiberManagement).
+2023-05-11 21:25:17.049 +07:00 [INF] Executing RedirectResult, redirecting to /Home/Index.
+2023-05-11 21:25:17.075 +07:00 [INF] Executed action CiberManagement.Controllers.AccountController.SignIn (CiberManagement) in 86.5444ms
+2023-05-11 21:25:17.090 +07:00 [INF] Executed endpoint 'CiberManagement.Controllers.AccountController.SignIn (CiberManagement)'
+2023-05-11 21:25:17.164 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7277/ - - - 302 0 - 7951.4653ms
+2023-05-11 21:25:17.232 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7277/Home/Index - -
+2023-05-11 21:25:17.270 +07:00 [INF] Executing endpoint 'CiberManagement.Controllers.HomeController.Index (CiberManagement)'
+2023-05-11 21:25:17.273 +07:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CiberManagement.Controllers.HomeController (CiberManagement).
+2023-05-11 21:25:17.293 +07:00 [INF] Executing ViewResult, running view Index.
+2023-05-11 21:25:17.676 +07:00 [INF] Executed ViewResult - view Index executed in 397.6362ms.
+2023-05-11 21:25:17.725 +07:00 [INF] Executed action CiberManagement.Controllers.HomeController.Index (CiberManagement) in 452.3044ms
+2023-05-11 21:25:17.726 +07:00 [INF] Executed endpoint 'CiberManagement.Controllers.HomeController.Index (CiberManagement)'
+2023-05-11 21:25:21.414 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7277/Home/Index - - - 200 - text/html;+charset=utf-8 4182.3821ms
+2023-05-11 21:25:37.819 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7277/_framework/aspnetcore-browser-refresh.js - -
+2023-05-11 21:25:37.829 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7277/_framework/aspnetcore-browser-refresh.js - - - 200 11988 application/javascript;+charset=utf-8 10.0023ms
+2023-05-11 21:25:57.968 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7277/product/index - -
+2023-05-11 21:25:57.993 +07:00 [INF] Executing endpoint 'CiberManagement.Controllers.ProductController.Index (CiberManagement)'
+2023-05-11 21:25:58.022 +07:00 [INF] Route matched with {action = "Index", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller CiberManagement.Controllers.ProductController (CiberManagement).
+2023-05-11 21:25:59.472 +07:00 [INF] Entity Framework Core 6.0.16 initialized 'CiberDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.16' with options: None
+2023-05-11 21:26:00.767 +07:00 [INF] Executed DbCommand (97ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ID], [p].[CategoryID], [p].[Description], [p].[Name], [p].[Price], [p].[Quantity], [c].[ID], [c].[Descriptions], [c].[Name]
+FROM [Products] AS [p]
+LEFT JOIN [Categories] AS [c] ON [p].[CategoryID] = [c].[ID]
+2023-05-11 21:26:00.936 +07:00 [INF] Executing ViewResult, running view Index.
+2023-05-11 21:26:01.010 +07:00 [INF] Executed ViewResult - view Index executed in 76.3843ms.
+2023-05-11 21:26:01.010 +07:00 [INF] Executed action CiberManagement.Controllers.ProductController.Index (CiberManagement) in 2988.4838ms
+2023-05-11 21:26:01.010 +07:00 [INF] Executed endpoint 'CiberManagement.Controllers.ProductController.Index (CiberManagement)'
+2023-05-11 21:26:01.022 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7277/product/index - - - 200 - text/html;+charset=utf-8 3054.1105ms
+2023-05-11 21:26:01.375 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7277/_framework/aspnetcore-browser-refresh.js - -
+2023-05-11 21:26:01.375 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7277/_framework/aspnetcore-browser-refresh.js - - - 200 11988 application/javascript;+charset=utf-8 0.5451ms
+2023-05-11 21:26:04.090 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7277/Order/Create?producId=6d73fcfa-ddd3-4382-d005-08db4f79666a - -
+2023-05-11 21:26:04.094 +07:00 [INF] Executing endpoint 'CiberManagement.Controllers.OrderController.Create (CiberManagement)'
+2023-05-11 21:26:04.150 +07:00 [INF] Route matched with {action = "Create", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(System.Guid) on controller CiberManagement.Controllers.OrderController (CiberManagement).
+2023-05-11 21:26:04.315 +07:00 [INF] Entity Framework Core 6.0.16 initialized 'CiberDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.16' with options: None
+2023-05-11 21:26:04.442 +07:00 [INF] Executed DbCommand (47ms) [Parameters=[@__get_Item_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[ID], [p].[CategoryID], [p].[Description], [p].[Name], [p].[Price], [p].[Quantity]
+FROM [Products] AS [p]
+WHERE [p].[ID] = @__get_Item_0
+2023-05-11 21:26:08.004 +07:00 [INF] Ok
+2023-05-11 21:26:09.475 +07:00 [ERR] Error
+2023-05-11 21:26:09.480 +07:00 [WRN] Warning
+2023-05-11 21:26:09.488 +07:00 [INF] Executing ViewResult, running view Create.
+2023-05-11 21:26:37.973 +07:00 [INF] Executed action CiberManagement.Controllers.OrderController.Create (CiberManagement) in 33823.0003ms
+2023-05-11 21:26:37.975 +07:00 [INF] Executed endpoint 'CiberManagement.Controllers.OrderController.Create (CiberManagement)'
+2023-05-11 21:26:38.096 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at AspNetCoreGeneratedDocument.Views_Order_Create.ExecuteAsync() in D:\Hoc Tap\NetCore\CiberManagement\CiberManagement\Views\Order\Create.cshtml:line 9
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-05-11 21:26:38.174 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7277/Order/Create?producId=6d73fcfa-ddd3-4382-d005-08db4f79666a - - - 500 - text/html;+charset=utf-8 34084.0167ms
+2023-05-11 21:26:38.295 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7277/_framework/aspnetcore-browser-refresh.js - -
+2023-05-11 21:26:38.296 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7277/_framework/aspnetcore-browser-refresh.js - - - 200 11988 application/javascript;+charset=utf-8 0.2725ms
+2023-05-11 21:26:47.183 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7277/Order/Create?producId=6d73fcfa-ddd3-4382-d005-08db4f79666a - -
+2023-05-11 21:26:47.188 +07:00 [INF] Executing endpoint 'CiberManagement.Controllers.OrderController.Create (CiberManagement)'
+2023-05-11 21:26:47.192 +07:00 [INF] Route matched with {action = "Create", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(System.Guid) on controller CiberManagement.Controllers.OrderController (CiberManagement).
+2023-05-11 21:26:47.216 +07:00 [INF] Entity Framework Core 6.0.16 initialized 'CiberDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.16' with options: None
+2023-05-11 21:26:47.238 +07:00 [INF] Executed DbCommand (6ms) [Parameters=[@__get_Item_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[ID], [p].[CategoryID], [p].[Description], [p].[Name], [p].[Price], [p].[Quantity]
+FROM [Products] AS [p]
+WHERE [p].[ID] = @__get_Item_0
+2023-05-11 21:27:02.372 +07:00 [INF] Ok
+2023-05-11 21:27:03.220 +07:00 [ERR] Error
+2023-05-11 21:27:05.066 +07:00 [WRN] Warning
+2023-05-11 21:27:09.855 +07:00 [INF] Executing ViewResult, running view Create.
+2023-05-11 21:32:39.502 +07:00 [INF] Entity Framework Core 6.0.16 initialized 'CiberDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.16' with options: None
+2023-05-11 23:26:16.251 +07:00 [INF] User profile is available. Using 'C:\Users\Tungdv\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-05-11 23:26:16.975 +07:00 [INF] Now listening on: https://localhost:7277
+2023-05-11 23:26:16.982 +07:00 [INF] Now listening on: http://localhost:5277
+2023-05-11 23:26:16.998 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-11 23:26:17.007 +07:00 [INF] Hosting environment: Development
+2023-05-11 23:26:17.012 +07:00 [INF] Content root path: D:\Hoc Tap\NetCore\CiberManagement\CiberManagement\
+2023-05-11 23:26:18.530 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7277/ - -
+2023-05-11 23:26:20.888 +07:00 [INF] Entity Framework Core 6.0.16 initialized 'CiberDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.16' with options: None
+2023-05-11 23:26:22.853 +07:00 [INF] Executed DbCommand (138ms) [Parameters=[@__p_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[Address], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[Id] = @__p_0
+2023-05-11 23:26:23.443 +07:00 [INF] Executed DbCommand (188ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0
+2023-05-11 23:26:23.574 +07:00 [INF] Executed DbCommand (27ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2023-05-11 23:26:23.596 +07:00 [INF] Executing endpoint 'CiberManagement.Controllers.AccountController.SignIn (CiberManagement)'
+2023-05-11 23:26:23.624 +07:00 [INF] Route matched with {action = "SignIn", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SignIn() on controller CiberManagement.Controllers.AccountController (CiberManagement).
+2023-05-11 23:26:23.664 +07:00 [INF] Executing RedirectResult, redirecting to /Home/Index.
+2023-05-11 23:26:23.678 +07:00 [INF] Executed action CiberManagement.Controllers.AccountController.SignIn (CiberManagement) in 40.8476ms
+2023-05-11 23:26:23.679 +07:00 [INF] Executed endpoint 'CiberManagement.Controllers.AccountController.SignIn (CiberManagement)'
+2023-05-11 23:26:23.745 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7277/ - - - 302 0 - 5222.9924ms
+2023-05-11 23:26:23.746 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7277/Home/Index - -
+2023-05-11 23:26:23.776 +07:00 [INF] Executing endpoint 'CiberManagement.Controllers.HomeController.Index (CiberManagement)'
+2023-05-11 23:26:23.778 +07:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CiberManagement.Controllers.HomeController (CiberManagement).
+2023-05-11 23:26:23.794 +07:00 [INF] Executing ViewResult, running view Index.
+2023-05-11 23:26:24.227 +07:00 [INF] Executed ViewResult - view Index executed in 443.5758ms.
+2023-05-11 23:26:24.232 +07:00 [INF] Executed action CiberManagement.Controllers.HomeController.Index (CiberManagement) in 453.5788ms
+2023-05-11 23:26:24.233 +07:00 [INF] Executed endpoint 'CiberManagement.Controllers.HomeController.Index (CiberManagement)'
+2023-05-11 23:26:24.423 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7277/Home/Index - - - 200 - text/html;+charset=utf-8 677.0758ms
+2023-05-11 23:26:24.558 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7277/_framework/aspnetcore-browser-refresh.js - -
+2023-05-11 23:26:24.571 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7277/_framework/aspnetcore-browser-refresh.js - - - 200 11988 application/javascript;+charset=utf-8 12.8134ms
+2023-05-11 23:26:33.525 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7277/product/index - -
+2023-05-11 23:26:33.656 +07:00 [INF] Executing endpoint 'CiberManagement.Controllers.ProductController.Index (CiberManagement)'
+2023-05-11 23:26:33.678 +07:00 [INF] Route matched with {action = "Index", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller CiberManagement.Controllers.ProductController (CiberManagement).
+2023-05-11 23:26:34.023 +07:00 [INF] Entity Framework Core 6.0.16 initialized 'CiberDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.16' with options: None
+2023-05-11 23:26:34.125 +07:00 [INF] Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ID], [p].[CategoryID], [p].[Description], [p].[Name], [p].[Price], [p].[Quantity], [c].[ID], [c].[Descriptions], [c].[Name]
+FROM [Products] AS [p]
+LEFT JOIN [Categories] AS [c] ON [p].[CategoryID] = [c].[ID]
+2023-05-11 23:26:34.226 +07:00 [INF] Executing ViewResult, running view Index.
+2023-05-11 23:26:34.521 +07:00 [INF] Executed ViewResult - view Index executed in 295.8529ms.
+2023-05-11 23:26:34.521 +07:00 [INF] Executed action CiberManagement.Controllers.ProductController.Index (CiberManagement) in 842.7891ms
+2023-05-11 23:26:34.521 +07:00 [INF] Executed endpoint 'CiberManagement.Controllers.ProductController.Index (CiberManagement)'
+2023-05-11 23:26:36.484 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7277/product/index - - - 200 - text/html;+charset=utf-8 2959.0041ms
+2023-05-11 23:26:37.078 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7277/_framework/aspnetcore-browser-refresh.js - -
+2023-05-11 23:26:37.078 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7277/_framework/aspnetcore-browser-refresh.js - - - 200 11988 application/javascript;+charset=utf-8 0.5772ms
+2023-05-11 23:26:38.992 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7277/Order/Create?producId=6d73fcfa-ddd3-4382-d005-08db4f79666a - -
+2023-05-11 23:26:39.012 +07:00 [INF] Executing endpoint 'CiberManagement.Controllers.OrderController.Create (CiberManagement)'
+2023-05-11 23:26:39.060 +07:00 [INF] Route matched with {action = "Create", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(System.Guid) on controller CiberManagement.Controllers.OrderController (CiberManagement).
+2023-05-11 23:26:39.342 +07:00 [INF] Entity Framework Core 6.0.16 initialized 'CiberDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.16' with options: None
+2023-05-11 23:26:39.421 +07:00 [INF] Executed DbCommand (38ms) [Parameters=[@__get_Item_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[ID], [p].[CategoryID], [p].[Description], [p].[Name], [p].[Price], [p].[Quantity]
+FROM [Products] AS [p]
+WHERE [p].[ID] = @__get_Item_0
+2023-05-11 23:26:56.204 +07:00 [INF] Ok
+2023-05-11 23:26:56.348 +07:00 [ERR] Error
+2023-05-11 23:26:56.363 +07:00 [WRN] Warning
+2023-05-11 23:26:56.377 +07:00 [INF] Executing ViewResult, running view Create.
+2023-05-11 23:26:56.546 +07:00 [INF] Executed ViewResult - view Create executed in 170.6745ms.
+2023-05-11 23:26:56.548 +07:00 [INF] Executed action CiberManagement.Controllers.OrderController.Create (CiberManagement) in 17487.3913ms
+2023-05-11 23:26:56.548 +07:00 [INF] Executed endpoint 'CiberManagement.Controllers.OrderController.Create (CiberManagement)'
+2023-05-11 23:26:56.577 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7277/Order/Create?producId=6d73fcfa-ddd3-4382-d005-08db4f79666a - - - 200 - text/html;+charset=utf-8 17584.9702ms
+2023-05-11 23:27:00.077 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7277/_framework/aspnetcore-browser-refresh.js - -
+2023-05-11 23:27:00.084 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7277/_framework/aspnetcore-browser-refresh.js - - - 200 11988 application/javascript;+charset=utf-8 6.8710ms
+2023-05-11 23:27:06.692 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7277/Order/CreateOrder application/x-www-form-urlencoded 272
+2023-05-11 23:27:06.700 +07:00 [INF] Executing endpoint 'CiberManagement.Controllers.OrderController.CreateOrder (CiberManagement)'
+2023-05-11 23:27:06.720 +07:00 [INF] Route matched with {action = "CreateOrder", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateOrder(CiberManagement.DAL.Model.Order) on controller CiberManagement.Controllers.OrderController (CiberManagement).
+2023-05-11 23:27:23.643 +07:00 [INF] Entity Framework Core 6.0.16 initialized 'CiberDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.16' with options: None
+2023-05-11 23:27:23.921 +07:00 [INF] Executed DbCommand (16ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = Double), @p2='?' (DbType = Guid), @p3='?' (DbType = DateTime2), @p4='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Orders] ([ID], [Amount], [CustomerID], [OrderDate], [ProductID])
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2023-05-11 23:27:23.957 +07:00 [INF] Executing RedirectResult, redirecting to /Product/Index.
+2023-05-11 23:27:23.958 +07:00 [INF] Executed action CiberManagement.Controllers.OrderController.CreateOrder (CiberManagement) in 17237.4616ms
+2023-05-11 23:27:23.958 +07:00 [INF] Executed endpoint 'CiberManagement.Controllers.OrderController.CreateOrder (CiberManagement)'
+2023-05-11 23:27:23.958 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7277/Order/CreateOrder application/x-www-form-urlencoded 272 - 302 0 - 17266.2966ms
+2023-05-11 23:27:23.977 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7277/Product/Index - -
+2023-05-11 23:27:23.980 +07:00 [INF] Executing endpoint 'CiberManagement.Controllers.ProductController.Index (CiberManagement)'
+2023-05-11 23:27:23.980 +07:00 [INF] Route matched with {action = "Index", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller CiberManagement.Controllers.ProductController (CiberManagement).
+2023-05-11 23:27:23.983 +07:00 [INF] Entity Framework Core 6.0.16 initialized 'CiberDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.16' with options: None
+2023-05-11 23:27:23.991 +07:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ID], [p].[CategoryID], [p].[Description], [p].[Name], [p].[Price], [p].[Quantity], [c].[ID], [c].[Descriptions], [c].[Name]
+FROM [Products] AS [p]
+LEFT JOIN [Categories] AS [c] ON [p].[CategoryID] = [c].[ID]
+2023-05-11 23:27:23.992 +07:00 [INF] Executing ViewResult, running view Index.
+2023-05-11 23:27:24.018 +07:00 [INF] Executed ViewResult - view Index executed in 25.8466ms.
+2023-05-11 23:27:24.018 +07:00 [INF] Executed action CiberManagement.Controllers.ProductController.Index (CiberManagement) in 37.6618ms
+2023-05-11 23:27:24.018 +07:00 [INF] Executed endpoint 'CiberManagement.Controllers.ProductController.Index (CiberManagement)'
+2023-05-11 23:27:24.475 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7277/Product/Index - - - 200 - text/html;+charset=utf-8 497.7058ms
+2023-05-11 23:27:24.691 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7277/_framework/aspnetcore-browser-refresh.js - -
+2023-05-11 23:27:24.692 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7277/_framework/aspnetcore-browser-refresh.js - - - 200 11988 application/javascript;+charset=utf-8 0.2946ms
+2023-05-11 23:27:26.721 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7277/Order/Create?producId=6d73fcfa-ddd3-4382-d005-08db4f79666a - -
+2023-05-11 23:27:26.723 +07:00 [INF] Executing endpoint 'CiberManagement.Controllers.OrderController.Create (CiberManagement)'
+2023-05-11 23:27:26.723 +07:00 [INF] Route matched with {action = "Create", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(System.Guid) on controller CiberManagement.Controllers.OrderController (CiberManagement).
+2023-05-11 23:27:26.728 +07:00 [INF] Entity Framework Core 6.0.16 initialized 'CiberDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.16' with options: None
+2023-05-11 23:27:26.739 +07:00 [INF] Executed DbCommand (5ms) [Parameters=[@__get_Item_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[ID], [p].[CategoryID], [p].[Description], [p].[Name], [p].[Price], [p].[Quantity]
+FROM [Products] AS [p]
+WHERE [p].[ID] = @__get_Item_0
+2023-05-11 23:27:28.566 +07:00 [INF] Ok
+2023-05-11 23:27:28.571 +07:00 [ERR] Error
+2023-05-11 23:27:28.574 +07:00 [WRN] Warning
+2023-05-11 23:27:28.575 +07:00 [INF] Executing ViewResult, running view Create.
+2023-05-11 23:27:28.589 +07:00 [INF] Executed ViewResult - view Create executed in 14.5981ms.
+2023-05-11 23:27:28.590 +07:00 [INF] Executed action CiberManagement.Controllers.OrderController.Create (CiberManagement) in 1866.5976ms
+2023-05-11 23:27:28.590 +07:00 [INF] Executed endpoint 'CiberManagement.Controllers.OrderController.Create (CiberManagement)'
+2023-05-11 23:27:28.592 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7277/Order/Create?producId=6d73fcfa-ddd3-4382-d005-08db4f79666a - - - 200 - text/html;+charset=utf-8 1871.2684ms
+2023-05-11 23:27:28.676 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7277/_framework/aspnetcore-browser-refresh.js - -
+2023-05-11 23:27:28.676 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7277/_framework/aspnetcore-browser-refresh.js - - - 200 11988 application/javascript;+charset=utf-8 0.4875ms
+2023-05-11 23:27:32.951 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7277/Order/CreateOrder application/x-www-form-urlencoded 272
+2023-05-11 23:27:32.957 +07:00 [INF] Executing endpoint 'CiberManagement.Controllers.OrderController.CreateOrder (CiberManagement)'
+2023-05-11 23:27:32.957 +07:00 [INF] Route matched with {action = "CreateOrder", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateOrder(CiberManagement.DAL.Model.Order) on controller CiberManagement.Controllers.OrderController (CiberManagement).
+2023-05-11 23:28:05.521 +07:00 [INF] Entity Framework Core 6.0.16 initialized 'CiberDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.16' with options: None
+2023-05-11 23:28:05.530 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = Double), @p2='?' (DbType = Guid), @p3='?' (DbType = DateTime2), @p4='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Orders] ([ID], [Amount], [CustomerID], [OrderDate], [ProductID])
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2023-05-11 23:28:05.533 +07:00 [INF] Executing RedirectResult, redirecting to /Product/Index.
+2023-05-11 23:28:05.533 +07:00 [INF] Executed action CiberManagement.Controllers.OrderController.CreateOrder (CiberManagement) in 32576.1357ms
+2023-05-11 23:28:05.533 +07:00 [INF] Executed endpoint 'CiberManagement.Controllers.OrderController.CreateOrder (CiberManagement)'
+2023-05-11 23:28:05.533 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7277/Order/CreateOrder application/x-www-form-urlencoded 272 - 302 0 - 32581.9760ms
+2023-05-11 23:28:05.550 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7277/Product/Index - -
+2023-05-11 23:28:05.551 +07:00 [INF] Executing endpoint 'CiberManagement.Controllers.ProductController.Index (CiberManagement)'
+2023-05-11 23:28:05.551 +07:00 [INF] Route matched with {action = "Index", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller CiberManagement.Controllers.ProductController (CiberManagement).
+2023-05-11 23:28:05.554 +07:00 [INF] Entity Framework Core 6.0.16 initialized 'CiberDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.16' with options: None
+2023-05-11 23:28:05.558 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ID], [p].[CategoryID], [p].[Description], [p].[Name], [p].[Price], [p].[Quantity], [c].[ID], [c].[Descriptions], [c].[Name]
+FROM [Products] AS [p]
+LEFT JOIN [Categories] AS [c] ON [p].[CategoryID] = [c].[ID]
+2023-05-11 23:28:05.558 +07:00 [INF] Executing ViewResult, running view Index.
+2023-05-11 23:28:05.579 +07:00 [INF] Executed ViewResult - view Index executed in 21.0596ms.
+2023-05-11 23:28:05.580 +07:00 [INF] Executed action CiberManagement.Controllers.ProductController.Index (CiberManagement) in 28.4504ms
+2023-05-11 23:28:05.580 +07:00 [INF] Executed endpoint 'CiberManagement.Controllers.ProductController.Index (CiberManagement)'
+2023-05-11 23:28:05.586 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7277/Product/Index - - - 200 - text/html;+charset=utf-8 35.9853ms
+2023-05-11 23:28:05.646 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7277/_framework/aspnetcore-browser-refresh.js - -
+2023-05-11 23:28:05.662 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7277/_framework/aspnetcore-browser-refresh.js - - - 200 11988 application/javascript;+charset=utf-8 16.5087ms

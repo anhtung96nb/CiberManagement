@@ -1,0 +1,15 @@
+D:\Hoc Tap\NetCore\CiberManagement\CiberManagement.BLL\bin\Debug\net6.0\CiberManagement.BLL.deps.json
+D:\Hoc Tap\NetCore\CiberManagement\CiberManagement.BLL\bin\Debug\net6.0\CiberManagement.BLL.dll
+D:\Hoc Tap\NetCore\CiberManagement\CiberManagement.BLL\bin\Debug\net6.0\CiberManagement.BLL.pdb
+D:\Hoc Tap\NetCore\CiberManagement\CiberManagement.BLL\bin\Debug\net6.0\CiberManagement.DAL.dll
+D:\Hoc Tap\NetCore\CiberManagement\CiberManagement.BLL\bin\Debug\net6.0\CiberManagement.DAL.pdb
+D:\Hoc Tap\NetCore\CiberManagement\CiberManagement.BLL\obj\Debug\net6.0\CiberManagement.BLL.csproj.AssemblyReference.cache
+D:\Hoc Tap\NetCore\CiberManagement\CiberManagement.BLL\obj\Debug\net6.0\CiberManagement.BLL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Hoc Tap\NetCore\CiberManagement\CiberManagement.BLL\obj\Debug\net6.0\CiberManagement.BLL.AssemblyInfoInputs.cache
+D:\Hoc Tap\NetCore\CiberManagement\CiberManagement.BLL\obj\Debug\net6.0\CiberManagement.BLL.AssemblyInfo.cs
+D:\Hoc Tap\NetCore\CiberManagement\CiberManagement.BLL\obj\Debug\net6.0\CiberManagement.BLL.csproj.CoreCompileInputs.cache
+D:\Hoc Tap\NetCore\CiberManagement\CiberManagement.BLL\obj\Debug\net6.0\CiberManagement.BLL.csproj.CopyComplete
+D:\Hoc Tap\NetCore\CiberManagement\CiberManagement.BLL\obj\Debug\net6.0\CiberManagement.BLL.dll
+D:\Hoc Tap\NetCore\CiberManagement\CiberManagement.BLL\obj\Debug\net6.0\refint\CiberManagement.BLL.dll
+D:\Hoc Tap\NetCore\CiberManagement\CiberManagement.BLL\obj\Debug\net6.0\CiberManagement.BLL.pdb
+D:\Hoc Tap\NetCore\CiberManagement\CiberManagement.BLL\obj\Debug\net6.0\ref\CiberManagement.BLL.dll

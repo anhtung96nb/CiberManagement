@@ -1,0 +1,54 @@
+﻿@using CiberManagement.DAL.Model
+@using CiberManagement.BLL.Services
+@model Product
+@inject ICategoryServies categoryService
+@{
+    ViewData["Title"] = "Create New Product";
+    var categories = await categoryService.GetAllCategories();
+
+}
+
+<h1>Create Product</h1>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="AddNew" >
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group mb-3">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group mb-3">
+                <label asp-for="Price" class="control-label"></label>
+                <input asp-for="Price" class="form-control" />
+                <span asp-validation-for="Price" class="text-danger"></span>
+            </div>
+            <div class="form-group mb-3">
+                <label asp-for="Description" class="control-label"></label>
+                <input asp-for="Description" class="form-control" />
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+            <div class="form-group mb-3">
+                <label asp-for="Quantity" class="control-label"></label>
+                <input asp-for="Quantity" class="form-control" />
+                <span asp-validation-for="Quantity" class="text-danger"></span>
+            </div>
+            <div class="form-group mb-3">
+                <label class="control-label">Category</label>
+                <select class="form-select" aria-label="Default select example" asp-for="CategoryID" asp-items="@(new SelectList(categories,"ID","Name"))">
+                    <option selected>Open this select category</option>
+                </select>
+            </div>
+            <div class="form-group mb-3">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>

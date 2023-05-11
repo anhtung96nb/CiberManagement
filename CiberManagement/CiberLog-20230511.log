@@ -1,0 +1,24 @@
+2023-05-11 21:20:04.200 +07:00 [INF] User profile is available. Using 'C:\Users\Tungdv\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-05-11 21:20:36.769 +07:00 [INF] User profile is available. Using 'C:\Users\Tungdv\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-05-11 21:20:39.258 +07:00 [INF] Now listening on: https://localhost:7277
+2023-05-11 21:20:39.261 +07:00 [INF] Now listening on: http://localhost:5277
+2023-05-11 21:20:39.376 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-11 21:20:39.510 +07:00 [INF] Hosting environment: Development
+2023-05-11 21:20:39.768 +07:00 [INF] Content root path: D:\Hoc Tap\NetCore\CiberManagement\CiberManagement\
+2023-05-11 21:20:43.172 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7277/ - -
+2023-05-11 21:20:45.221 +07:00 [INF] Executing endpoint 'CiberManagement.Controllers.AccountController.SignIn (CiberManagement)'
+2023-05-11 21:20:45.270 +07:00 [INF] Route matched with {action = "SignIn", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SignIn() on controller CiberManagement.Controllers.AccountController (CiberManagement).
+2023-05-11 21:20:45.358 +07:00 [INF] Executing RedirectResult, redirecting to /Home/Index.
+2023-05-11 21:20:45.393 +07:00 [INF] Executed action CiberManagement.Controllers.AccountController.SignIn (CiberManagement) in 89.5668ms
+2023-05-11 21:20:45.397 +07:00 [INF] Executed endpoint 'CiberManagement.Controllers.AccountController.SignIn (CiberManagement)'
+2023-05-11 21:20:45.591 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7277/ - - - 302 0 - 2427.3558ms
+2023-05-11 21:20:45.913 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7277/Home/Index - -
+2023-05-11 21:20:46.101 +07:00 [INF] Executing endpoint 'CiberManagement.Controllers.HomeController.Index (CiberManagement)'
+2023-05-11 21:20:46.103 +07:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CiberManagement.Controllers.HomeController (CiberManagement).
+2023-05-11 21:20:46.229 +07:00 [INF] Executing ViewResult, running view Index.
+2023-05-11 21:20:47.146 +07:00 [INF] Executed ViewResult - view Index executed in 1039.0202ms.
+2023-05-11 21:20:47.150 +07:00 [INF] Executed action CiberManagement.Controllers.HomeController.Index (CiberManagement) in 1047.6482ms
+2023-05-11 21:20:47.151 +07:00 [INF] Executed endpoint 'CiberManagement.Controllers.HomeController.Index (CiberManagement)'
+2023-05-11 21:20:47.220 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7277/Home/Index - - - 200 - text/html;+charset=utf-8 1306.6782ms
+2023-05-11 21:21:16.756 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7277/_framework/aspnetcore-browser-refresh.js - -
+2023-05-11 21:21:16.766 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7277/_framework/aspnetcore-browser-refresh.js - - - 200 11988 application/javascript;+charset=utf-8 10.5390ms

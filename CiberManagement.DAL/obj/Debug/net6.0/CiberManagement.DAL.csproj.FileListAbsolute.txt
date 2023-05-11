@@ -1,0 +1,14 @@
+D:\Hoc Tap\NetCore\CiberManagement\CiberManagement.DAL\bin\Debug\net6.0\CiberManagement.DAL.deps.json
+D:\Hoc Tap\NetCore\CiberManagement\CiberManagement.DAL\bin\Debug\net6.0\CiberManagement.DAL.runtimeconfig.json
+D:\Hoc Tap\NetCore\CiberManagement\CiberManagement.DAL\bin\Debug\net6.0\CiberManagement.DAL.dll
+D:\Hoc Tap\NetCore\CiberManagement\CiberManagement.DAL\bin\Debug\net6.0\CiberManagement.DAL.pdb
+D:\Hoc Tap\NetCore\CiberManagement\CiberManagement.DAL\obj\Debug\net6.0\CiberManagement.DAL.csproj.AssemblyReference.cache
+D:\Hoc Tap\NetCore\CiberManagement\CiberManagement.DAL\obj\Debug\net6.0\CiberManagement.DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Hoc Tap\NetCore\CiberManagement\CiberManagement.DAL\obj\Debug\net6.0\CiberManagement.DAL.AssemblyInfoInputs.cache
+D:\Hoc Tap\NetCore\CiberManagement\CiberManagement.DAL\obj\Debug\net6.0\CiberManagement.DAL.AssemblyInfo.cs
+D:\Hoc Tap\NetCore\CiberManagement\CiberManagement.DAL\obj\Debug\net6.0\CiberManagement.DAL.csproj.CoreCompileInputs.cache
+D:\Hoc Tap\NetCore\CiberManagement\CiberManagement.DAL\obj\Debug\net6.0\CiberManagement.DAL.dll
+D:\Hoc Tap\NetCore\CiberManagement\CiberManagement.DAL\obj\Debug\net6.0\refint\CiberManagement.DAL.dll
+D:\Hoc Tap\NetCore\CiberManagement\CiberManagement.DAL\obj\Debug\net6.0\CiberManagement.DAL.pdb
+D:\Hoc Tap\NetCore\CiberManagement\CiberManagement.DAL\obj\Debug\net6.0\CiberManagement.DAL.genruntimeconfig.cache
+D:\Hoc Tap\NetCore\CiberManagement\CiberManagement.DAL\obj\Debug\net6.0\ref\CiberManagement.DAL.dll
